@@ -14,10 +14,10 @@
 
         default_layer {
             bindings = <
-                &trans &kp SQT &kp COMMA &kp DOT &kp P &kp Y    &kp F &kp G &kp C &kp R &kp L &trans
-                &trans &mt LSFT A &kp O &lt 5 E &lt 1 U &kp I    &kp D &kp H &lt 5 T &kp N &mt RSFT S &trans
-                &trans &kp SCLN &kp Q &kp J &kp K &kp X          &kp B &kp M &kp W &kp V &kp Z &trans
-                &mt LCTL ESC &kp LGUI &lt 3 TAB                  &lt 2 SPC &lt 4 ENT &kp BSPC
+                &trans &trans &kp COMMA &kp DOT &kp P &trans    &trans &kp G &kp C &kp R &trans &trans
+                &trans &mt LSHFT A &kp O &lt 5 E &lt 1 U &trans    &trans &kp H &lt 5 T &kp N &mt RSHFT S &trans
+                &trans &kp SEMI &kp Q &kp J &kp K &trans          &trans &kp M &kp W &kp V &kp Z &trans
+                &mt LCTRL ESC &kp LCMD &lt 3 TAB                  &lt 2 SPC &lt 4 ENT &kp BSPC
             >;
         };
     //    nav_layer {
