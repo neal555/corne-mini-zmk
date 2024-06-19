@@ -14,13 +14,12 @@
 
         default_layer {
             bindings = <
-                &trans &kp QUOT &kp COMMA &kp DOT &kp P    &kp Y    &kp F &kp G &kp C &kp R &kp L &trans
+                &trans &kp QUOT &kp COMMA &kp DOT &kp P &kp Y    &kp F &kp G &kp C &kp R &kp L &trans
                 &trans &lt LSFT A &kp O &lt 5 E &lt 1 U &kp I    &kp D &kp H &lt 5 T &kp N &lt RSFT S &trans
-                &trans &kp SCLN &kp Q &kp J &kp K &kp X                &kp B &kp M &kp W &kp V &kp Z &trans
-                &mt LCTL ESC &kp LGUI &lt 3 TAB                        &lt 2 SPC &lt 4 ENT &kp BSPC
+                &trans &kp SCLN &kp Q &kp J &kp K &kp X          &kp B &kp M &kp W &kp V &kp Z &trans
+                &mt LCTL ESC &kp LGUI &lt 3 TAB                  &lt 2 SPC &lt 4 ENT &kp BSPC
             >;
         };
-
         nav_layer {
             bindings = <
                 &trans &trans &trans &trans &trans &trans             &trans &trans &kp UP &trans &trans &trans
@@ -29,7 +28,6 @@
                 &none &kp LCTRL &none                                 &none &kp RET &kp DEL
             >;
         };
-
         num_layer {
             bindings = <
                 &trans &trans &trans &trans &kp PEQL &trans           &trans &kp N1 &kp N2 &kp N3 &trans &trans
@@ -38,7 +36,6 @@
                 &none &none &mo 5                                      &none &none &none
             >;
         };
-
         symb_layer {
             bindings = <
                 &trans &trans &kp AT &kp HASH &kp DLLR &trans         &trans &kp LPAR &kp RPAR &kp ASTRK &trans &trans
@@ -47,7 +44,6 @@
                 &none &none &none                                      &mo 5 &none &none
             >;
         };
-
         config_layer {
             bindings = <
                 &trans &trans &rgb 0 &trans &trans &trans             &trans &trans &kp VOL_U &trans &trans &trans
@@ -56,7 +52,6 @@
                 &none &none &none                                      &none &none &none
             >;
         };
-
         raise_layer {
             bindings = <
                 &trans &trans &trans &trans &kp Y &trans               &trans &kp F &trans &trans &trans &trans
