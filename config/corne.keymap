@@ -14,10 +14,10 @@
 
         devorak_layer {
             bindings = <
-                &trans &trans &kp COMMA &kp DOT &kp P &trans    &trans &kp G &kp C &kp R &trans &trans
-                &trans &mt LSHFT A &kp O &lt 5 E &lt 1 U &trans    &trans &kp H &lt 5 T &kp N &mt RSHFT S &trans
+                &trans &trans &kp COMMA &kp DOT &kp P &trans &trans &kp G &kp C &kp R &trans &trans
+                &trans &mt LSHFT A &kp O &lt 5 E &lt 1 U &trans &trans &kp H &lt 5 T &kp N &mt RSHFT S &trans
                 &trans &kp SEMI &kp Q &kp J &kp K &trans          &trans &kp M &kp W &kp V &kp Z &trans
-                &mt LCTRL ESC &kp LCMD &lt 3 TAB                  &lt 2 SPACE &lt 4  &kp BSPC
+                &mt LCTRL ESC &kp LCMD &lt 3 TAB                  &lt 2 SPACE &lt 4 ENTER &kp BSPC
             >;
         };
         nav_layer {
