@@ -12,7 +12,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        devorak_layer {
             bindings = <
                 &trans &trans &kp COMMA &kp DOT &kp P &trans    &trans &kp G &kp C &kp R &trans &trans
                 &trans &mt LSHFT A &kp O &lt 5 E &lt 1 U &trans    &trans &kp H &lt 5 T &kp N &mt RSHFT S &trans
