@@ -57,7 +57,7 @@
                 &trans &trans &trans &trans &kp Y &trans               &trans &kp F &trans &trans &trans &trans
                 &trans &kp SQT &kp LSHFT &trans &kp I &trans           &trans &kp D &trans &trans &kp L &trans
                 &trans &trans &trans &trans &kp X &trans               &trans &kp B &trans &trans &trans &trans
-                &mt LCTRL ESC &kp LCMD &none                           &none &kp LALT &none
+                &mt LCTRL ESC &kp LCMD &none                           &none &none &none
             >;
         };
     };
