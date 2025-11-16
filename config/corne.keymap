@@ -78,8 +78,8 @@
         blender_layer {
             label = "BLENDER";
             bindings = <
-                &trans &trans &kp N1 &kp N2 &kp N3 &trans      &trans &kp KP_N1 &kp KP_2 &kp KP_N3 &trans &trans
-                &trans &mt LSHFT G &kp R &kp S &kp E &trans    &trans &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_DOT &trans
+                &trans &trans &kp N1 &kp N2 &kp N3 &trans      &trans &kp KP_N1 &kp KP_N2 &kp KP_N3 &trans &trans
+                &trans &kp G &kp R &kp S &kp E &trans    &trans &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_DOT &trans
                 &trans &kp R &kp X &kp Y &kp Z &trans          &trans &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_N0 &trans
                                 &tog 7 &kp LCMD &kp TAB        &none &none &none
             >;
